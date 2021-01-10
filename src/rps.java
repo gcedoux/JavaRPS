@@ -9,7 +9,7 @@ public class rps {
 
        do {
            Scanner input = new Scanner(System.in); //Created scanner to accept user input
-           System.out.println("Hello, choose rock, paper or scissors:");
+           System.out.println("Hello, choose rock, paper or scissors: type 'quit' to quit");
            String playerC = input.nextLine().toLowerCase();//Store the value for user input
 
            if (playerC.equals("quit")) {
