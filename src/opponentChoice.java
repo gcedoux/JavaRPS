@@ -1,4 +1,4 @@
-public class OpponentChoice {
+public class opponentChoice {
 
     //Method to get the opponents choice
     public static String opponentC(){
